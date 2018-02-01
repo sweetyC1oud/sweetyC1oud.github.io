@@ -578,7 +578,7 @@ body.custom-font-enabled {
 }
 a {
 	outline: none;
-	color: rgb(81, 165, 168); /*Article Title Normal*/
+	color: rgb(247, 190, 23); /*Article Title Normal*/
     text-decoration: none;
 }
 a:hover {
@@ -664,7 +664,8 @@ a:hover {
 
 .site-header h1 a,
 .site-header h2 a {
-	color: #515151;
+	/*color: #515151;*/
+	color: #000000;
 	display: inline-block;
 	text-decoration: none;
 }
@@ -850,11 +851,11 @@ footer[role="contentinfo"] a:hover {
 	font-size: 13px;
 	font-size: 0.928571429rem;
 	line-height: 1.846153846;
-	color: #757575;
+	color: #f9f9f9;
 }
 .comments-link a,
 .entry-meta a {
-	color: rgb(88, 88, 88); /*Article Meta Link Normal*/
+	color: rgb(0, 0, 0); /*Article Meta Link Normal*/
 }
 .comments-link a:hover,
 .entry-meta a:hover {
@@ -942,7 +943,8 @@ article.sticky .featured-post {
 
 .entry-content a,
 .comment-content a {
-	color: rgb(81, 165, 168); /* Link in Article Content Normal */
+	color: rgb(81, 165, 168);  
+	/*Link in Article Content Normal */
 }
 
 .entry-content a:Hover,
@@ -990,7 +992,7 @@ article.sticky .featured-post {
     margin: 0 0 1.714285714rem;
     border-left: 4px solid #aaa;
     padding: 0 15px;
-    color: #aaa;
+    color: #000000;
 }
 .entry-content blockquote>:first-child,
 .comment-content blockquote>:first-child {
@@ -1089,7 +1091,7 @@ img.aligncenter,
 .entry-content table,
 .comment-content table {
 	border-bottom: 1px solid #ededed;
-	color: #757575;
+	color: #000000;
 	font-size: 12px;
 	font-size: 0.857142857rem;
 	line-height: 2;
@@ -1720,7 +1722,8 @@ img#wpstats {
 	}
 	.main-navigation li a {
 		border-bottom: 0;
-		color: #6a6a6a;
+		/*color: #6a6a6a;*/
+		color: #f9f9f9;
 		line-height: 3.692307692;
 		text-transform: uppercase;
 		white-space: nowrap;
