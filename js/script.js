@@ -149,7 +149,7 @@
     
     // subtitle
     var subtitleList = [
-        "- 『To look back, and saw one no longer young, never make public does not rise .』——IT生活",
+        "『To look back, and saw one no longer young, never make public does not rise .』——IT生活",
         "『一入编程深似海，从此妹子是路人。』——IT生活",
         "『如果第一次你没有成功，那么称之为1.0版，继续加油。』——IT生活",
         "『程序员的美德：懒惰，没有耐心以及老子天下第一。』——IT生活",
@@ -191,7 +191,7 @@
         "『栈和队列的区别是啥？吃多了拉就是队列；吃多了吐就是栈。』——IT生活",
         "『汇编，C和C++是好朋友，每天一起吃饭。可是前天晚上C++一个人去吃饭了。问他怎么了，他说“汇编和C没有对象，他们去过节了……』——IT生活",
         "『为API生，为框架死，为debug奋斗一辈子，吃符号亏，上大小写的当，最后死在需求上。』——IT生活"
-    ];
+   ];
     var i = Math.floor(Math.random() * subtitleList.length);
     $('#subtitle').text(subtitleList[i]);
 })(jQuery);
